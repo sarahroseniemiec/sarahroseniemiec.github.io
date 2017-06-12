@@ -1,5 +1,5 @@
 @font-face {
-  font-family: CircularStd-Book; src: url('CircularStd-Book.otf');
+  font-family: CircularStd-Book; src: url('circular_std_book/CircularStd-Book.otf');
 }
 
 
@@ -25,6 +25,13 @@ h2 {
   font-weight: lighter;
 }
 
+h3 {
+  font-size: 40px;
+  /*text-align: center;*/
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -32,23 +39,54 @@ a {
   font-size: 20px;
 }
 
+#pinContainer {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.panel {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
 .intro {
   width: 100%;
   height: 100%;
+  background-color: #ffeff7;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  background-color: #fbefff
 }
 
 .projects {
   width: 100%;
   height: 100%;
+  background-color: #eff0ff;
 }
 
+.makeit {
+  float: right;
 
+}
 
+.aboutmakeit {
+  float: left;
 
+}
+
+.neighborly {
+  clear: both;
+}
 
 .contact {
   width: 100%;
   height: 100%;
+  background-color: #effeff;
 }
 
 #githublogo {
