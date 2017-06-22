@@ -32,12 +32,23 @@ document.addEventListener("DOMContentLoaded", function () {
   titleTwo.style.display = "none"
 
   next.addEventListener("click", function () {
-    neighborly.style.display = "block"
-    aboutNeighborly.style.display = "block"
-    titleTwo.style.display = "block"
-    makeIt.style.display = "none"
-    aboutMakeIt.style.display = "none"
-    title.style.display = "none"
+    if (neighborly.style.display == "none") {
+      neighborly.style.display = "block"
+      aboutNeighborly.style.display = "block"
+      titleTwo.style.display = "block"
+      makeIt.style.display = "none"
+      aboutMakeIt.style.display = "none"
+      title.style.display = "none"
+    } else {
+      makeIt.style.display = "block"
+      aboutMakeIt.style.display = "block"
+      title.style.display = "block"
+      neighborly.style.display = "none"
+      aboutNeighborly.style.display = "none"
+      titleTwo.style.display = "none"
+    }
+
+
 
 
   })

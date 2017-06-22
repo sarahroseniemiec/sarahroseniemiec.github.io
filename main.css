@@ -9,12 +9,13 @@ html, body {
 }
 
 body {
+
   font-family: CircularStd-Book;
   font-weight: lighter;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
   font-weight: lighter;
 }
@@ -36,15 +37,18 @@ a {
   text-decoration: none;
   color: black;
   /*text-transform: uppercase;*/
-  font-size: 40px;
+  font-size: 30px;
 }
 
 a:hover {
-  color: turquoise;
+  color: #00faff;
 }
 
 .center {
   text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #pinContainer {
@@ -62,7 +66,7 @@ a:hover {
 .intro {
   width: 100%;
   height: 100%;
-  background-color: #ffeff7;
+  background-color: #fff7f7;
 }
 
 .about {
@@ -73,20 +77,24 @@ a:hover {
 
 .aboutme {
   width: 60%;
-  text-align: center;
-  font-size: 30px;
+  /*text-align: center;*/
+  font-size: 25px;
   margin: 0 auto;
+  position: relative;
+  top: 50%;
+  /*transform: translateY(-50%);*/
 }
 
 .projects {
   width: 100%;
   height: 100%;
-  background-color: #efefef;
+  background-color: #fcfcfc;
 }
 
 .title {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
+  margin: 10px;
 }
 
 .makeit {
@@ -109,7 +117,8 @@ a:hover {
 
 .titletwo {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
+  margin: 10px;
 }
 
 .neighborly {
@@ -128,6 +137,27 @@ a:hover {
   transform: translateY(-50%);*/
 }
 
+.projectlink {
+  font-size: 20px;
+  padding: 10px;
+}
+
+button{
+  font-family: CircularStd-Book;
+  font-size: 18px;
+  border: none;
+  background-color: #fcfcfc;
+}
+
+button:hover{
+  background-color: #00faff;
+}
+
+button:focus {
+  outline: 0;
+
+}
+
 #next {
   clear: both;
   text-align: center;
@@ -136,7 +166,7 @@ a:hover {
 .contact {
   width: 100%;
   height: 100%;
-  background-color: #effeff;
+  background-color: #ffffff;
   text-align: center;
 }
 
