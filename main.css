@@ -130,7 +130,8 @@ a:hover {
 .aboutneighborly {
   float: left;
   margin-left: 100px;
-  width: 420px;
+  width: 504px;
+  height: 465px;
   font-size: 18px;
   /*position: relative;
   top: 50%;
@@ -172,4 +173,230 @@ button:focus {
 
 .fa {
   padding: 10px;
+}
+
+
+
+/*media queries*/
+@media (min-width: 300px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  .aboutme {
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 18px;
+    margin: 0px;
+  }
+
+  .makeit {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .aboutmakeit {
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+    font-size: 10px;
+    height: 230px;
+
+  }
+
+  .titletwo {
+    font-size: 18px;
+    margin: 0px;
+  }
+
+  .neighborly {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .aboutneighborly {
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+    font-size: 10px;
+    height: 230px;
+
+  }
+
+  video {
+    width: 300px;
+    height: 200px;
+  }
+
+  .projectlink {
+    font-size: 15px;
+  }
+}
+
+/*larger than phablet*/
+
+@media (min-width:550px) {
+
+
+}
+
+/*larger than tablet*/
+
+@media (min-width: 750px) {
+  .aboutme {
+    font-size: 25px;
+  }
+
+  video {
+    width: 350px;
+    height: 250px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .aboutmakeit {
+    font-size: 13px;
+    width: 463px;
+  }
+  .titletwo {
+    font-size: 18px;
+  }
+  .aboutneighborly {
+    font-size: 13px;
+    width: 463px;
+  }
+  a {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+
+}
+
+/*larger than desktop*/
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  .title {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .makeit {
+    float: right;
+    margin-right: 5%;
+  }
+
+  .aboutmakeit {
+    float: left;
+    margin-left: 5%;
+    width: 400px;
+    height: 500px;
+    font-size: 18px;
+
+  }
+
+  .titletwo {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .neighborly {
+    float: right;
+    margin-right: 5%;
+  }
+
+  .aboutneighborly {
+    float: left;
+    margin-left: 5%;
+    width: 400px;
+    height: 500px;
+    font-size: 18px;
+
+  }
+
+  video {
+    width: 400px;
+    height: 250px;
+  }
+
+  .projectlink {
+    font-size: 20px;
+  }
+}
+
+/*larger than desktop HD*/
+
+@media (min-width:1200px) {
+
+
+  .makeit {
+
+    margin-right: 80px;
+  }
+
+  .aboutmakeit {
+
+    margin-left: 80px;
+    width: 504px;
+    height: 465px;
+
+
+  }
+
+  .neighborly {
+
+    margin-right: 80px;
+  }
+
+  .aboutneighborly {
+
+    margin-left: 80px;
+    width: 504px;
+    height: 465px;
+
+
+  }
+
+  video {
+    width: 500px;
+    height: 350px;
+  }
+
+
+
 }
