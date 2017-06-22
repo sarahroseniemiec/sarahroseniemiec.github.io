@@ -19,4 +19,27 @@ document.addEventListener("DOMContentLoaded", function () {
   	.setTween(wipeAnimation)
   	.addTo(controller);
 
+  var next = document.getElementById("next")
+  var neighborly = document.querySelector(".neighborly")
+  var aboutNeighborly = document.querySelector(".aboutneighborly")
+  var makeIt = document.querySelector(".makeit")
+  var aboutMakeIt = document.querySelector(".aboutmakeit")
+  var title = document.querySelector(".title")
+  var titleTwo = document.querySelector(".titletwo")
+
+  neighborly.style.display = "none"
+  aboutNeighborly.style.display = "none"
+  titleTwo.style.display = "none"
+
+  next.addEventListener("click", function () {
+    neighborly.style.display = "block"
+    aboutNeighborly.style.display = "block"
+    titleTwo.style.display = "block"
+    makeIt.style.display = "none"
+    aboutMakeIt.style.display = "none"
+    title.style.display = "none"
+
+
+  })
+
 })

@@ -6,6 +6,7 @@
     <title>Sarah Rose Niemiec</title>
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="images/cactus.png">
+    <script src="https://use.fontawesome.com/4d46b4fd5c.js"></script>
 
     <script src="javascripts/greensock-js/src/uncompressed/TweenLite.js"></script>
     <script src="javascripts/greensock-js/src/uncompressed/plugins/CSSPlugin.js"></script>
@@ -25,20 +26,26 @@
 
   <body>
 
-    <div class="nav">
+    <!-- <div class="nav">
       <a href="#about">about</a>
       <a href="#projects">projects</a>
       <a href="#contact">contact</a>
-    </div>
+    </div> -->
 
     <div id="pinContainer">
       <section class="panel intro">
         <h1>Hello, I'm Sarah</h1>
         <h2>Artist and Web Developer</h2>
+        <img src="images/testplant.svg" alt="">
       </section>
 
       <section class="panel about">
-        <h3>About</h3>
+        <!-- <h3>About</h3> -->
+        <div class="center">
+          <div class="aboutme">
+            I am a programmer with a background in fine art. After working in an art studio for the past 3 years, a friend suggested I try coding and before you could say “hello world” I was hooked. Driven by the need to create and a passion to learn new things, I strive to bring my creativity to programming. When I’m not coding I am in my studio working on my paintings, reading books about science, or making pizza from scratch. See some of my paintings <a href="http://sarahrosepainting.tumblr.com" target="_blank">here</a>
+          </div>
+        </div>
       </section>
 
       <section class="panel projects">
@@ -46,16 +53,20 @@
         <h3>Projects</h3>
 
         <div class="makeit">
-          <video width="420" height="340" controls>
+          <video width="500" height="350" controls>
             <source src="videos/marshmallow_screencap.mp4.mov" type="video/mp4">
               Your browser does not support the video tag.
             </video>
             <br>
             <a href="https://makeitorbreakit.herokuapp.com/" target="_blank">Make it or Break it</a>
             <br>
-            <a href="https://github.com/sarahroseniemiec/makeitorbreakit" target="_blank"><img id="githublogo" src="images/githublogo.png" alt="git hub logo"></a>
+            <a href="https://github.com/sarahroseniemiec/makeitorbreakit" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
+
           <div class="aboutmakeit">
+            <div class="title">
+              Make it or Break it
+            </div>
             Make it or Break it is a web app for making new habits and breaking bad habits.
             <ul> Features:
               <li>Sign in and sign up using Google Oauth2</li>
@@ -73,22 +84,49 @@
             <br>
           </div>
 
+
+
           <div class="neighborly">
             <a href="https://hidden-reaches-15223.herokuapp.com/" target="_blank">Neighborly</a>
-            <a href="https://github.com/sarahroseniemiec/neighborly" target="_blank"><img id="githublogo" src="images/githublogo.png" alt="git hub logo"></a>
+            <br>
+            <a href="https://github.com/sarahroseniemiec/neighborly" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
+
           <div class="aboutneighborly">
-
+            <div class="titletwo">
+              Neighborly
+            </div>
+            Neighborly allows users to create events for their area and create posts for lost and found items for their area.
+            <ul>Features:
+              <li>Events map shows all current and future events, using the Google Maps API and links to their respective pages for more details</li>
+              <li>Events calendar displays events and time</li>
+              <li>Users can contact the author of the lost/found post via email using
+              the Sendgrid API</li>
+            </ul>
+            Technology: Ruby on Rails
+            <br>
+            APIs: Google Maps, SendGrid
+            <br>
+            Gems: Devise, Simple Calendar, Geokit
           </div>
 
+          <div id="next">
+            V
+          </div>
         </section>
 
 
 
         <section class="panel contact">
-          <h3>Get in touch</h3>
-          <a href="https://github.com/sarahroseniemiec/" target="_blank"><img id="githublogo" src="images/githublogo.png" alt="git hub logo">Github</a>
-          <a href="mailto:sroseniemiec@gmail.com"><img id="envelope" src="images/envelope.png" alt="envelope">Email</a>
+          <!-- <h3>Get in touch</h3> -->
+          <a href="mailto:sroseniemiec@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>Email</a>
+          <br>
+          <a href="https://drive.google.com/file/d/0BzJZsb9wVOXkbUV5dUFkQlNnVEE/view" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i>Resume</a>
+
+          <br>
+          <a href="https://github.com/sarahroseniemiec/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
+          <br>
+          <a href="https://www.linkedin.com/in/sarah-niemiec/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linked In</a>
         </section>
 
     </div>
